@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+header {
+  background-color: #1976d2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+}
+form, #search-filter, #emergency-section {
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+input, select, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+th {
+  background-color: #1976d2;
+  color: white;
+}
+.status-available {
+  color: green;
+}
+.status-unavailable {
+  color: red;
+}
+#emergency-results {
+  margin-top: 1rem;
+}
